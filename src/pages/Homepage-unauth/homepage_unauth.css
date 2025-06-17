@@ -1,0 +1,107 @@
+.homepage_unauth-wrapper .expert-post-index {
+  position: relative;
+  display: none;
+}
+.homepage_unauth-wrapper .expert-post-index.active {
+  display: flex;
+}
+.homepage_unauth-wrapper .expert-post-index::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+.homepage_unauth-wrapper .about-section {
+  display: none;
+  margin-top: 20px;
+}
+.homepage_unauth-wrapper .about-section.active {
+  display: block;
+}
+.homepage_unauth-wrapper .about-section h2 {
+  font: 400 16px/1.5em Poppins;
+}
+.homepage_unauth-wrapper .expert-application, .homepage_unauth-wrapper .expert-login {
+  margin-top: 20px;
+  display: none;
+}
+.homepage_unauth-wrapper .expert-application.active, .homepage_unauth-wrapper .expert-login.active {
+  display: block;
+}
+.homepage_unauth-wrapper .expert-application h2, .homepage_unauth-wrapper .expert-login h2 {
+  font: 700 34px/1.5em Poppins;
+}
+.homepage_unauth-wrapper .expert-application .form-wrapper, .homepage_unauth-wrapper .expert-login .form-wrapper {
+  box-shadow: 4px 6px 28px 0 hsla(234, 51%, 36%, 0.1);
+  border-radius: 16px;
+  padding: 24px 12px 32px;
+  margin-top: 8px;
+}
+.homepage_unauth-wrapper .expert-application .form-wrapper .input-group-2, .homepage_unauth-wrapper .expert-login .form-wrapper .input-group-2 {
+  margin-block: 5px;
+}
+.homepage_unauth-wrapper .expert-application .form-wrapper button, .homepage_unauth-wrapper .expert-login .form-wrapper button {
+  margin-top: 76px;
+  width: 100%;
+  height: 46px;
+  background: #3CBA01;
+  border-radius: 100px;
+  color: #fff;
+  font: 700 16px/1.5em Roboto;
+  border: none;
+  cursor: pointer;
+}
+.homepage_unauth-wrapper .expert-application .links-wrapper, .homepage_unauth-wrapper .expert-login .links-wrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 100px;
+}
+.homepage_unauth-wrapper .expert-application .links-wrapper div, .homepage_unauth-wrapper .expert-login .links-wrapper div {
+  display: flex;
+  font: 400 16px/1.5em Poppins;
+}
+.homepage_unauth-wrapper .expert-application .links-wrapper div + div, .homepage_unauth-wrapper .expert-login .links-wrapper div + div {
+  margin-top: 30px;
+}
+.homepage_unauth-wrapper .expert-application .links-wrapper div p, .homepage_unauth-wrapper .expert-login .links-wrapper div p {
+  width: 25ch;
+}
+.homepage_unauth-wrapper .expert-application .links-wrapper div a, .homepage_unauth-wrapper .expert-login .links-wrapper div a {
+  color: #42B219;
+  font-weight: 700;
+  text-decoration: none;
+}
+.homepage_unauth-wrapper .expert-login .form-wrapper .input-group-2 {
+  margin-block: 5px 26px;
+}
+.homepage_unauth-wrapper .expert-login .form-wrapper button {
+  margin-top: 60px;
+}
+.homepage_unauth-wrapper .favorites-section {
+  display: none;
+  margin-top: 20px;
+}
+.homepage_unauth-wrapper .favorites-section.active {
+  display: block;
+}
+.homepage_unauth-wrapper .favorites-section h2 {
+  font: 700 34px/1.25em Poppins;
+}
+.homepage_unauth-wrapper .favorites-section .row {
+  display: flex;
+  gap: 12px;
+  font: 700 16px/1.5em Poppins;
+  margin-top: 20px;
+}
+.homepage_unauth-wrapper .favorites-section .row a {
+  color: #42B219;
+  text-decoration: none;
+}
+.homepage_unauth-wrapper .favorites-section .row p {
+  font-weight: 400;
+}/*# sourceMappingURL=homepage_unauth.css.map */

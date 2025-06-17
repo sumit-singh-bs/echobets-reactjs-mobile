@@ -1,0 +1,37 @@
+.expert-account-creation-wrapper {
+  padding: 10px 20px;
+}
+.expert-account-creation-wrapper h2 {
+  font: 700 34px/1.5em Poppins;
+  margin-bottom: 72px;
+}
+.expert-account-creation-wrapper > div {
+  display: flex;
+  align-items: center;
+}
+.expert-account-creation-wrapper > div p {
+  font: 400 16px/1.5em Poppins;
+}
+.expert-account-creation-wrapper .add-img, .expert-account-creation-wrapper .add-banner {
+  gap: 15px;
+  padding-left: 40px;
+}
+.expert-account-creation-wrapper .add-img p, .expert-account-creation-wrapper .add-banner p {
+  width: 93px;
+}
+.expert-account-creation-wrapper .add-banner {
+  margin-block: 46px 63px;
+}
+.expert-account-creation-wrapper .btn-group {
+  flex-direction: column;
+}
+.expert-account-creation-wrapper .btn-group button {
+  width: 150px;
+  height: 36px;
+  background: #F9FAFB;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #8C8C8C;
+  font: 700 14px/1.5em Roboto;
+}/*# sourceMappingURL=expert-account-creation-auth.css.map */

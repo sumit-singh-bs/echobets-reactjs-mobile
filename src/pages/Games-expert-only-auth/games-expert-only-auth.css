@@ -1,0 +1,40 @@
+.games-expert-only-wrapper {
+  margin-top: 8px;
+}
+.games-expert-only-wrapper .games-wrapper {
+  border-top: 1px solid hsla(0, 4%, 64%, 0.5);
+  border-bottom: 1px solid hsla(0, 4%, 64%, 0.5);
+  padding: 8px 16px;
+}
+.games-expert-only-wrapper .games-wrapper .games-box {
+  background: #D9D9D9;
+  width: 50px;
+  height: 32px;
+  border-radius: 6px;
+  display: grid;
+  place-content: center;
+}
+.games-expert-only-wrapper .expert-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 8px;
+  border-bottom: 1px solid hsla(0, 4%, 64%, 0.5);
+  padding-inline: 11px 31px;
+}
+.games-expert-only-wrapper .expert-tabs .expert-tabs-wrapper {
+  display: flex;
+  gap: 23px;
+}
+.games-expert-only-wrapper .expert-tabs .expert-tabs-wrapper .tabs {
+  width: 50px;
+  height: 32px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  display: grid;
+  place-content: center;
+  box-shadow: inset 0 4px 4px 0 hsla(0, 0%, 0%, 0.25);
+}
+.games-expert-only-wrapper .expert-tabs .expert-tabs-wrapper .tabs p {
+  font: 500 10px/1.5em Poppins;
+}/*# sourceMappingURL=games-expert-only-auth.css.map */

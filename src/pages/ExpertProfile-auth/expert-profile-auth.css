@@ -1,0 +1,71 @@
+.expert-profile-auth-wrapper .banner {
+  position: relative;
+  background: url("/banner-expert-profile.png");
+  background-size: cover;
+  height: 158px;
+}
+.expert-profile-auth-wrapper .banner .text-container {
+  position: absolute;
+  top: 13px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+.expert-profile-auth-wrapper .banner .text-container h1 {
+  font: 700 41px/1em Roboto;
+}
+.expert-profile-auth-wrapper .banner .text-container h2 {
+  font: 500 22px/1em Roboto;
+  letter-spacing: 9px;
+  transform: translateX(4px);
+}
+.expert-profile-auth-wrapper .banner .heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.expert-profile-auth-wrapper .expert-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 12px 36px 0;
+  position: relative;
+}
+.expert-profile-auth-wrapper .expert-details .add-profile {
+  position: absolute;
+  left: 50%;
+  top: -41px;
+  transform: translateX(-50%);
+}
+.expert-profile-auth-wrapper .expert-details h2 {
+  font: 700 20px/1.5em Roboto;
+}
+.expert-profile-auth-wrapper .expert-details .percent {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.expert-profile-auth-wrapper .expert-details .percent .digits {
+  color: #5FC200;
+  font: 600 40px/1em Roboto;
+}
+.expert-profile-auth-wrapper .expert-details .percent .wr {
+  font: 600 14px/1em Roboto;
+}
+.expert-profile-auth-wrapper .expert-counts {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  border-bottom: 1px solid black;
+  padding-block: 10px;
+}
+.expert-profile-auth-wrapper .expert-counts > div {
+  text-align: center;
+}
+.expert-profile-auth-wrapper .expert-counts > div p:first-child {
+  font: 700 16px/1.5em Poppins;
+}
+.expert-profile-auth-wrapper .expert-counts > div p:last-child {
+  font: 400 14px/1.5em Roboto;
+}/*# sourceMappingURL=expert-profile-auth.css.map */

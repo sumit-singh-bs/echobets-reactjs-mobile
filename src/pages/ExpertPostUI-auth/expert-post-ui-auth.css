@@ -1,0 +1,23 @@
+.expert-post-ui-auth-wrapper {
+  padding: 10px 30px;
+}
+.expert-post-ui-auth-wrapper > div {
+  margin-top: 30px;
+}
+.expert-post-ui-auth-wrapper p {
+  color: #8C8C8C;
+  font: 400 16px/1.5em Poppins;
+  margin-bottom: 10px;
+}
+.expert-post-ui-auth-wrapper button {
+  margin-top: 50px;
+  width: 248px;
+  height: 46px;
+  background: #3CBA01;
+  border-radius: 100px;
+  font: 700 16px/1em Roboto;
+  margin-inline: auto;
+  display: block;
+  color: white;
+  border: none;
+}/*# sourceMappingURL=expert-post-ui-auth.css.map */

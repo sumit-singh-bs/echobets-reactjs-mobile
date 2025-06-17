@@ -1,0 +1,134 @@
+.homepage_unauth-wrapper {
+
+    .expert-post-index {
+        position: relative;
+        display: none;
+
+        &.active {
+            display: flex
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            backdrop-filter: blur(7px);
+        }
+    }
+
+    .about-section {
+        display: none;
+        margin-top: 20px;
+
+        &.active {
+            display: block
+        }
+
+        h2 {
+            font: 400 16px/1.5em Poppins
+        }
+    }
+
+    .expert-application, .expert-login {
+        margin-top: 20px;
+        display: none;
+
+        &.active {
+            display: block
+        }
+
+        h2 {
+            font: 700 34px/1.5em Poppins
+        }
+
+        .form-wrapper {
+            box-shadow: 4px 6px 28px 0 hsla(234, 51%, 36%, .1);
+            border-radius: 16px;
+            padding: 24px 12px 32px;
+            margin-top: 8px;
+
+            .input-group-2 {
+                margin-block: 5px
+            }
+
+            button {
+                margin-top: 76px;
+                width: 100%;
+                height: 46px;
+                background: #3CBA01;
+                border-radius: 100px;
+                color: #fff;
+                font: 700 16px/1.5em Roboto;
+                border: none;
+                cursor: pointer
+            }
+        }
+
+        .links-wrapper {
+            width: fit-content;
+            margin-inline: auto;
+            margin-top: 100px;
+
+            div {
+                display: flex;
+                font: 400 16px/1.5em Poppins;
+
+                & + div {
+                    margin-top: 30px
+                }
+
+                p {
+                    width: 25ch;
+                }
+
+                a {
+                    color: #42B219;
+                    font-weight: 700;
+                    text-decoration: none
+                }
+            }
+        }
+    }
+
+    .expert-login .form-wrapper {
+        .input-group-2 {
+            margin-block: 5px 26px
+        }
+
+        button {
+            margin-top: 60px
+        }
+    }
+    
+    .favorites-section {
+        display: none;
+        margin-top: 20px;
+
+        &.active {
+            display: block
+        }
+
+        h2 {
+            font: 700 34px/1.25em Poppins
+        }
+
+        .row {
+            display: flex;
+            gap: 12px;
+            font: 700 16px/1.5em Poppins;
+            margin-top: 20px;
+
+            a {
+                color: #42B219;
+                text-decoration: none
+            }
+
+            p {
+                font-weight: 400
+            }
+        }
+    }
+}

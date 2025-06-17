@@ -1,0 +1,30 @@
+.menu-wrapper {
+  width: 218px;
+  height: 346px;
+  border-right: 1px solid #018301;
+  border-bottom: 1px solid #018301;
+  border-radius: 0 0 10px 0;
+  padding: 10px 32px 0 0;
+  position: relative;
+}
+.menu-wrapper p {
+  font: 400 16px/1.5em Poppins;
+  color: #A8A0A0;
+  text-align: right;
+}
+.menu-wrapper p + p {
+  margin-top: 4px;
+}
+.menu-wrapper .logout-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.menu-wrapper .logout-btn p {
+  color: #018301;
+  font: 700 12px/1.5em Poppins;
+}/*# sourceMappingURL=menu.css.map */
