@@ -1,0 +1,51 @@
+.expert-info {
+    display: flex;
+    padding: 22px;
+    border-bottom: 1px solid #BDBDBD;
+    width: calc(100% - 16px);
+    margin-inline: auto;
+    
+    &>div {
+        width: 100%
+    }
+
+    .expert-details {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        h2 {
+            font: 700 16px/1em Roboto;
+            color: #070821
+        }
+    }
+
+    .value-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .letters-wrapper {
+            display: flex;
+            gap: .25rem;
+            margin-top: 10px;
+
+            span {
+                font: 600 20px/1em Roboto
+            }
+
+            .w {
+                color: #2DC402
+            }
+
+            .l {
+                color: #EC1010
+            }
+        }
+
+        p {
+            color: #5FC200;
+            font: 600 64px/1em Roboto
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.match-info {
+  display: flex;
+  gap: 8px;
+  padding-block: 10px 20px;
+  border-bottom: 1px solid hsla(0, 4%, 64%, 0.5);
+  position: relative;
+}
+.match-info .corner-img {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+.match-info .info-col.hide {
+  display: none;
+}
+.match-info .info-col .expert-info {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.match-info .info-col .expert-info .expert-name {
+  font: 500 10px/1.25em Roboto;
+}
+.match-info .info-col .score {
+  display: flex;
+  gap: 4px;
+  margin-top: 10px;
+}
+.match-info .info-col .score p {
+  font: 500 32px/1em Roboto;
+}
+.match-info .info-col .score .winning {
+  color: #3CBA01;
+}
+.match-info .info-col .score .losing {
+  color: #EC1010;
+}
+.match-info .team-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 12px;
+}
+.match-info .team-wrapper .date {
+  display: none;
+}
+.match-info .team-wrapper .team-col {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.match-info .team-wrapper .team-col .score-subcol p {
+  font: 400 10px/1.5em Roboto;
+}
+.match-info .team-wrapper .team-col .team-info-subcol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  position: relative;
+}
+.match-info .team-wrapper .team-col .team-info-subcol p {
+  text-align: center;
+}
+.match-info .team-wrapper .team-col .team-info-subcol .team-name {
+  font: 600 10px/1.5em Poppins;
+}
+.match-info .team-wrapper .team-col .team-info-subcol .team-city {
+  font: 400 7px/1.5em Poppins;
+}
+.match-info .team-wrapper .team-col-1 .team-info-subcol .pick {
+  position: absolute;
+  right: -12px;
+  bottom: 0;
+}
+.match-info .team-wrapper .team-col-2 .team-info-subcol .pick {
+  position: absolute;
+  left: -12px;
+  bottom: 0;
+}
+.match-info .team-wrapper .team-col-2 .score-subcol p {
+  text-align: right;
+}
+.match-info .team-wrapper-2 {
+  padding-block: 8px 16px;
+  position: relative;
+}
+.match-info .team-wrapper-2 .date {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font: 700 8px/1.5em Poppins;
+}
+.match-info .team-wrapper-2 .team-col .score-subcol {
+  width: 50px;
+}
+.match-info .team-wrapper-2 .team-col-1 .score-subcol {
+  margin-left: 16px;
+  margin-top: 8px;
+}
+.match-info .team-wrapper-2 .team-col-2 .score-subcol {
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+.matchInfo4expertProfile {
+  box-shadow: 0 4px 4px 0 hsla(0, 0%, 0%, 0.25);
+  width: calc(100% - 16px);
+  margin-inline: auto;
+  border-radius: 7px;
+  margin-top: 12px;
+  padding: 0;
+}
+.matchInfo4expertProfile .info-col {
+  display: none;
+}
+.matchInfo4expertProfile .team-wrapper {
+  position: relative;
+  padding-block: 12px;
+}
+.matchInfo4expertProfile .team-wrapper .date {
+  display: block;
+  font: 700 8px/1em Roboto;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.matchInfo4expertProfile .team-wrapper .team-col-1 {
+  margin-left: 2.5rem;
+}
+.matchInfo4expertProfile .team-wrapper .team-col-2 {
+  margin-right: 2.5rem;
+}/*# sourceMappingURL=match-info.css.map */

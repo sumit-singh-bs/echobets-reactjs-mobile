@@ -1,0 +1,70 @@
+.input-group {
+  height: 67px;
+  background: #F9FAFB;
+  border-radius: 20px;
+  padding: 8px;
+  position: relative;
+}
+.input-group:after {
+  content: "";
+  width: calc(100% - 16px);
+  height: 2px;
+  background: #3CBA01;
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  transform: translateX(-50%);
+}
+.input-group label {
+  font: 600 13px/1.5em Poppins;
+  color: #8C8C8C;
+}
+.input-group .input-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+.input-group .input-row.channel {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  margin-top: 0;
+}
+.input-group .input-row input {
+  width: 100%;
+  height: 100%;
+  background: unset;
+  border: none;
+  color: #000;
+  font: 400 14px/1em Roboto;
+}
+.input-group .input-row input:focus {
+  outline: none;
+}
+.input-group .input-row img {
+  cursor: pointer;
+}
+.input-group .input-row .validate-btn {
+  width: 86px;
+  height: 16px;
+  border-radius: 8px;
+  border: 1px solid #8C8C8C;
+  place-content: center;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+.input-group .input-row .validate-btn p {
+  font: 700 10px/1em Roboto;
+  color: #8C8C8C;
+  text-align: center;
+}
+
+.embed-link::after {
+  content: unset;
+}
+.embed-link .input-row {
+  height: 100%;
+  margin: unset;
+}/*# sourceMappingURL=input.css.map */

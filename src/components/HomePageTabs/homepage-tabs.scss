@@ -1,0 +1,21 @@
+.tabs-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+
+    .tab {
+        background: linear-gradient(#78E70F, #38AA19);
+        width: 100%;
+        height: 36px;
+        position: grid;
+        place-content: center;
+        border-radius: 8px 8px 0 0;
+        cursor: pointer;
+
+        p {
+            font: 700 16px/1em Inter;
+            color: white;
+            text-align: center;
+        }
+    }
+}

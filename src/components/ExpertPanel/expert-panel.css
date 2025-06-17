@@ -1,0 +1,27 @@
+.expert-panel-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #D3D0D0;
+}
+.expert-panel-row .col-1 .expert-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.expert-panel-row .col-1 .expert-box .expert-name {
+  font: 500 10px/1em Roboto;
+}
+.expert-panel-row .col-1 .expert-score {
+  display: flex;
+  gap: 4px;
+  margin-top: 20px;
+}
+.expert-panel-row .col-1 .expert-score p {
+  font: 500 32px/1em Roboto;
+}
+.expert-panel-row .col-1 .expert-score .winning {
+  color: #3CBA01;
+}
+.expert-panel-row .col-1 .expert-score .losing {
+  color: #EC1010;
+}/*# sourceMappingURL=expert-panel.css.map */

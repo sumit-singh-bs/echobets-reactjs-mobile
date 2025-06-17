@@ -1,0 +1,35 @@
+.header {
+    height: auto;
+    background: linear-gradient(#018301, #2DC402);
+
+    .header-wrapper {
+        height: 110px;
+        position: relative;
+
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+
+        .button-group {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 0 31px 14px 38px;
+
+            &>div {
+                cursor: pointer
+            }
+
+            .hamburger .line {
+                width: 30px;
+                height: 3px;
+                background: white;
+                margin: 5px
+            }
+        }
+    }
+}

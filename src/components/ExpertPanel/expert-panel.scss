@@ -1,0 +1,36 @@
+.expert-panel-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D3D0D0;
+
+    .col-1 {
+
+        .expert-box {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+
+            .expert-name {
+                font: 500 10px/1em Roboto
+            }
+        }
+
+        .expert-score {
+            display: flex;
+            gap: 4px;
+            margin-top: 20px;
+
+            p {
+                font: 500 32px/1em Roboto
+            }
+
+            .winning {
+                color: #3CBA01
+            }
+
+            .losing {
+                color: #EC1010
+            }
+        }
+    }
+}
