@@ -1,0 +1,8 @@
+.homepage-wrapper {
+  padding: 10px 20px;
+}
+.homepage-wrapper .expert-post-index {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=homepage.css.map */
